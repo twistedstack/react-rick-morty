@@ -1,0 +1,13 @@
+.home-container h1{
+    text-align: center;
+    margin-bottom:40px;
+ }
+ .characters-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ .characters-dark,.home-dark{
+    background-color: black;
+    color:white;
+ }

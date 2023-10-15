@@ -1,0 +1,18 @@
+.header-container{
+    background-color: rgb(102, 92, 171);
+    height:40px;
+    padding:0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+}
+.header-dark{
+    background-color: black;
+}
+.header-container button{
+    padding:2px 10px;
+    border-radius:8px;
+    border:none;
+    cursor:pointer;
+}
