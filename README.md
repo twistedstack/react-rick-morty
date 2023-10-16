@@ -1,38 +1,53 @@
-# Tutorial
 
-### Packages installation steps
+# Rick & Morty React Mini Project
 
-```
-npx create-react-app .
+React application that pulls data from https://rickandmortyapi.com
 
-npm install bootstrap
 
-npm install @popperjs/core --save
 
-npm install sass
 
-npm install react-paginate --save
+## Screenshots
 
-npm install react-router-dom
+![App Screenshot](ss.png)
 
-npm start
-```
 
-### Font Awesome CDN
+## Tech Stack
 
-```
-<link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-/>
-    
+**Client:** React, SASS, Bootstrap
+
+**Server:** Node
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/twistedstack/react-rick-morty.git
 ```
 
-### Google Font Families
+Go to the project directory
 
+```bash
+  cd react-rick-morty
 ```
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
 
-font-family: 'Poppins', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+Install dependencies
+
+```bash
+  npm install
 ```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Badges
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
